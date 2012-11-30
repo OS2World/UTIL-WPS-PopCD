@@ -1,0 +1,540 @@
+<html>
+<head>
+<title>PopCD! readme (English)</title>
+<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html" charset="latin1">
+
+<body>
+
+<center>
+    <font color="firebrick" size=7>
+    PopCD!
+    </font>
+    <br>
+    <font size=4 color="darkgoldenrod">
+    Pop Up CD-ROM Object Utility
+    </font>
+    <p>
+    <font size=2>
+    Copyright &copy; 1999-2004 Ken Kinoshita, Pretty Pop Software
+    <br>
+    e-mail :
+    <a href="mailto:prettypop@sakura.email.ne.jp">
+    prettypop@sakura.email.ne.jp
+    </a><br>
+    </font>
+</center>
+<p>
+
+<center>
+<a href="http://www.prettypop.net/">
+PrettyPop.net</a>
+<br>
+<a href="readme_j.htm">
+Readme - Japanese edition
+</a>
+</center>
+<p>
+
+<div class="item">
+PopCD!
+</div>
+<ul>
+    What is PopCD!?
+    PopCD! is `Pop Up CD-ROM/Removable media/Audio CD Object' Utility.
+    When you insert CD-ROM/Removable media/Audio CD, PopCD! creates its object on desktop and open/play.
+    And PopCD! ejects CD-ROM/Removable Media/Audio CD when you drag and drop object into shredder.
+    <p>
+
+    This OS/2 application requires Watcom VX-REXX runtime module (VROBJ.DLL) and EMX runtime modules.
+    You can get a copy from...
+    <p>
+
+    <ul>
+        <li>
+        <a href="http://www.prettypop.net/software/runtime/vrobj21d.zip">
+        Download VROBJ.DLL 2.1d (vrobj21d.zip)</a>
+
+        <li>
+        Download EMX Runtime Library (0.9c or higher)
+        <ol>
+            <li type=a>
+            <a href="ftp://ftp-os2.nmsu.edu/pub/os2/dev/emx/v0.9c/emxrt.zip">
+            Runtime Package (0.9c)</a>
+
+            <li type=a>
+            <a href="ftp://ftp-os2.nmsu.edu/pub/os2/dev/emx/v0.9d/emxrt.zip">
+            Runtime Package (0.9d)</a>
+        </ol>
+    </ul>
+</ul>
+<p>
+
+<div class="item">
+Install
+</div>
+<ol>
+    <li type=1>
+    Unzip the archived file into any unique local directory.
+    <p>
+
+    <li type=1>
+    Run INSTALL.CMD by either OS/2 full screen or OS/2 session.
+    <br>
+    The PopCD! program object will automatically be created in Startup Folder.
+</ol>
+
+<div class="item">
+Usage
+</div>
+<ul>
+    <li>
+    Basic setup
+    <p>
+    <ul>
+        <li>
+        PopCD! detect CD-ROM media automatically, so you only do following items for basic usage.
+        <p>
+        <ol>
+            <li type=1>
+            Check `Enable' check box to enable PopCD!
+
+            <li type=1>
+            Set delay time
+        </ol>
+        <p>
+
+        <li>
+        If you want to pop up other removable media...
+        <p>
+        <ol>
+            <li type=1>
+            Check `Other Removable Media' check button.
+
+            <li type=1>
+            Set removable drive letter immediately at removable drives entry field.
+            <br>
+            For example, you uses removable media as drive J:, K: and L:, then set `JKL' in other removable drives entry field.
+        </ol>
+    </ul>
+    <p>
+
+    <li>
+    Icon Position
+    <p>
+    <ul>
+        <li>
+        Check `Auto Position' radio button, if you want to manage icon position on the desktop.
+        You can set icons inside the area you set with following parameters.
+        <p>
+        <ol>
+            <li type=a>
+            Start Point X
+            <li type=a>
+            Start Point Y
+            <li type=a>
+            Rows
+            <li type=a>
+            Intervals X
+            <li type=a>
+            Intervals Y
+        </ol>
+        <p>
+
+        <li>
+        Minus(-) is also valid.
+    </ul>
+    <p>
+
+    <li>
+    Other parameters
+    <p>
+    <ol>
+        <li type=a>
+        Volume label as object title
+        <p>
+        <ul>
+            <li type=disk>
+            Check `Use Volume Label' check box if you want to use volume label as object title.
+        </ul>
+        <p>
+
+        <li type=a>
+        Open folder when mount object
+        <p>
+        <ul>
+            <li type=disk>
+            Check `Open Folder' check box if you want to open folder when mount object.
+        </ul>
+        <p>
+
+        <li type=a>
+        Open folder view mode
+        <p>
+        <ul>
+            <li type=disk>
+            Check `Folder View Mode' check box if you want to use `Folder View Mode' Function.
+
+            <li type=disk>
+            You can select folder open view mode from ICON/TREE/DETAILS view,
+            and you can set some parameters of each view.
+        </ul>
+        <p>
+
+        <li type=a>
+        CD-ROM Last Drive
+        <p>
+        <ul>
+            <li type=disk>
+            You can set last CD-ROM drive.
+        </ul>
+        <p>
+
+        <li type=a>
+        Ignore CD-ROM Drive
+        <p>
+        <ul>
+            <li type=disk>
+            You can set CD-ROM drive name that you don't want to search.
+            <br>
+            For example, you want to ignore drive P:, Q: and R:, then set `PQR' in ignore drives entry field.
+        </ul>
+        <p>
+
+        <li type=a>
+        Caption
+        <p>
+        <ul>
+            <li type=disk>
+            You can set defalt drive name pattern in this area.
+
+            <li type=disk>
+            `%d' will set the drive letter.
+            <br>
+            For example,
+            If you are a English OS/2 Warp user then set as `Drive %d' (default).
+            <br>
+        </ul>
+    </ol>
+    <p>
+
+    <li>
+    Audio CD
+    <p>
+    <ul>
+        <li>
+        Basic setup
+        <p>
+        <ol>
+            <li type=1>
+            Set CD Player Device ID (1-6).
+            <li type=1>
+            Check `Audio CD' check box.
+        </ol>
+        <p>
+
+        <li>
+        PopCD! CD Player
+        <p>
+        <ul>
+            <li type=disc>
+            PopCD! has internal tiny CD player.
+            PopCD! CD Player is enabled automatically when you set Audio CD,
+            and disabled when eject Audio CD.
+            <p>
+
+            <li type=disc>
+            Functions
+            <p>
+            <ol>
+                <li type=a>
+                Visible CD Player
+                <br>
+                Check `Visible CD Player' check box, if you want to pop up PopCD! CD Player.
+                <p>
+
+                <li type=a>
+                Auto Play
+                <br>
+                Check `Auto Play' check box, if you want to play Audio CD automatically.
+                <p>
+
+                <li type=a>
+                Always on Top
+                <br>
+                Check `Always on Top' check box, if you want to stay PopCD! CD player at top of the desktop.
+                <p>
+
+                <li type=a>
+                Key Commands
+                <br>
+                PopCD! CD player supports following short-cut key commands.
+                <p>
+                <ul>
+                    <table>
+                        <tr>
+                            <td>`P' or Right key</td><td>:</td><td>Play</td>
+                        </tr><tr>
+                            <td>`S' or Left key</td><td>:</td><td>Stop</td>
+                        </tr><tr>
+                            <td>`N' or Up key</td><td>:</td><td>Play Next Track</td>
+                        </tr><tr>
+                            <td>`R' or Down key</td><td>:</td><td>Play Previous Track</td>
+                        </tr><tr>
+                            <td>`E'</td><td>:</td><td>Eject</td>
+                        </tr><tr>
+                            <td>`T'</td><td>:</td><td>Hide/Show Title Bar</td>
+                        </tr><tr>
+                            <td>`V'</td><td>:</td><td>Hide/Show Volume</td>
+                        <script>
+                        /*
+                        </tr><tr>
+                            <td>0 - 9 (Number)</td><td>:</td><td>Song track (not supported yet)</td>
+                        */
+                        </script>
+                        </tr>
+                    </table>
+                </ul>
+            </ol>
+        </ul>
+        <p>
+
+        <li>
+        External CD Player
+        <p>
+        <ul>
+            <li type=disc>
+            You can use not only internal CD Player, also external CD Player.
+        </ul>
+    </ul>
+    <p>
+
+    <li>
+    How to Eject CD-ROM/Removable media/Audio CD media?
+    <p>
+    <ul>
+       You can eject CD-ROM/Removable media/Audio CD media by following ways.
+       <br>
+       PopCD! supports Macintosh like drag & drop eject function.
+       <p>
+       <ol>
+           <li type=a>
+           Drag & drop media object into shredder.
+           <li type=a>
+           Delete media object.
+           <li type=a>
+           Push drive's eject button (old way? ;->).
+       </ol>
+   </ul>
+</ul>
+<p>
+
+<div class="item">
+Working Conditions
+</div>
+<ul>
+    OS/2 Warp V4
+</ul>
+<p>
+
+<div class="item">
+Distribution
+</div>
+<ul>
+    Please ask a written consent of the author before distributing this software in any manner.
+    You may not modify PopCD! in any way nor may you reverse assemble, reverse compile,
+    or otherwise translate or reverse engineer its executable codes or datas.
+</ul>
+<p>
+
+<div class="item">
+License Agreement
+</div>
+<ul>
+    PopCD!, its executable and documentation, is the copyrighted property of Ken Kinoshita.
+    It is licensed, not given, for your personal use.
+</ul>
+<p>
+
+<div class="item">
+Warranty...
+</div>
+<ul>
+    This program is AS IS CONDITION and the writer should not have any responsibilities but hold the copyright.
+    Testing and bug reports are welcomed.
+</ul>
+<p>
+
+<div class="item">
+Reports
+</div>
+<ul>
+    <font color="darkgreen">
+    Email:
+    </font>
+    <ul>
+        <a href="mailto:kinop@sakura.email.ne.jp">
+        Ken Kinoshita &lt;prettypop@sakura.email.ne.jp&gt;
+        </a>
+        <br>
+        Opinions, ideas, or bug reports are encouraged.
+    </ul>
+</ul>
+<p>
+
+<div class="item">
+Pretty Pop Software Home Page
+</div>
+<ul>
+    All latest files and information are available on...
+    <p>
+
+    <ul>
+        <li>
+        <a href="http://www.prettypop.net/">
+        PrettyPop.net</a>
+    </ul>
+</ul>
+<p>
+
+<div class="item">
+History
+</div>
+<ul>
+    <b>Version 1.00</b> (06.Jan.1999)
+    <ol>
+        <li type=a>
+        This is first version.
+    </ol>
+    <p>
+
+    <b>Version 1.10</b> (16.Jan.1999)
+    <ol>
+        <li type=a>
+        Added Macintosh like eject CD-ROM function.
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 2.00</b> (11.Feb.1999)
+    <ol>
+        <li type=a>
+        Added Automatically search CD-ROM Media Function (FileSystem:CDFS).
+        <li type=a>
+        Supported more than 2(two) CD-ROM Drives.
+        <li type=a>
+        Supported Other (Removable) Media (Optical Disk, etc).
+        <li type=a>
+        Supported Audio CD.
+        <li type=a>
+        Became to select default folder view mode and set some parameters.
+        <li type=a>
+        Added tiny Audio CD Player function.
+        <li type=a>
+        Supported External CD Player.
+        <li type=a>
+        Became to Shareware.
+    </ol>
+    <p>
+
+    <b>Version 2.01</b> (11.Feb.1999)
+    <ol>
+        <li type=a>
+        Fixed the inconveniences occures when check `Audio CD' check box.
+    </ol>
+    <p>
+
+    <b>Version 2.05</b> (18.Mar.1999)
+    <ol>
+        <li type=a>
+        Added Ignore CD-ROM Drives Function.
+        <li type=a>
+        Added Last CD-ROM Drive Parameter.
+        <li type=a>
+        Fixed the inconveniences occures when shutdown.
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 2.10</b> (01.Apr.1999)
+    <ol>
+        <li type=a>
+        Added Auto Positioning Function.
+        <li type=a>
+        Changed CD Audio Icon name (and include in package).
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 2.15</b> (21.Apr.1999)
+    <ol>
+        <li type=a>
+        Tune up.
+        <li type=a>
+        Added `Internal CD Player Always on Top' function.
+        <li type=a>
+        Added `Enable/Disable Folder View Mode' function.
+        <li type=a>
+        Also maintained other minor inconveniences and designs.
+    </ol>
+    <p>
+
+    <b>Version 2.15a</b> (14.Jun.1999)
+    <ol>
+        <li type=a>
+        Expanded Audio CD's device ID (3 to 6).
+    </ol>
+    <p>
+
+    <b>Version 2.16</b> (13.Aug.1999)
+    <ol>
+        <li type=a>
+        Specification changed to be set the object name as default name when the media is removed.
+        You can set default name at `Caption' parameter.
+    </ol>
+    <p>
+
+    <b>Version 2.17</b> (21.Aug.1999)
+    <ol>
+        <li type=a>
+        Added context menu on Tiny CD Player.
+        <li type=a>
+        Fixed the inconveniences of CD Audio Device ID (could not use except for device 1).
+        <li type=a>
+        Also maintained other minor inconveniences.
+    </ol>
+    <p>
+
+    <b>Version 2.18</b> (26.Sep.1999)
+    <ol>
+        <li type=a>
+        Fixed the inconveniences of Tiny CD Player.
+        <li type=a>
+        Also maintained other minor inconveniences and designs.
+    </ol>
+    <p>
+
+    <b>Version 2.19</b> (29.Nov.1999)
+    <ol>
+        <li type=a>
+        Added CD Track List Menu on Tiny CD Player.
+        <li type=a>
+        Added short-cut key commands on Tiny CD Player.
+    </ol>
+    <p>
+
+    <b>Version 2.20</b> (12.Sep.2004)
+    <ol>
+        <li type=a>
+        Released version 2.20 as freeware.
+    </ol>
+</ul>
+
+<font color="snow">
+</body>
+</html>
+

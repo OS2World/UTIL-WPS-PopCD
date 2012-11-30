@@ -1,0 +1,16 @@
+VX-REXX OS/2 V2.12 Build B3
+VRX: Window1.VRX
+MacroPath: VRM:F:\program\rexx\PopFD
+EXEPath: 
+RunParameters: debugmode
+RunDirectory: F:\program\rexx\PopCD
+VRXWindow: __VREMainWindow,1,482,84,867,8000
+VRXWindow: __VRESectionListWindow,1,446,11937,9034,3342
+VRXWindow: __VREToolsWindow,1,10708,8468,1357,5643
+VRXWindow: __VREWindListWindow,1,9564,2012,2650,3150
+UserFile: 1
+UserWindow: Window1,1
+UserWindow: SW_CdPlayer,1
+UserWindow: SW_Registry,1
+UserWindow: SW_SetupAutoPosition,1
+UserWindow: SW_InternalCdPlayerSetup,1

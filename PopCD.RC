@@ -1,0 +1,55 @@
+;
+; PopFd.rc
+;
+icon 120 taco.ico
+bitmap 150 taco.bmp
+bitmap 152 ika.bmp
+bitmap 154 cdrom.bmp
+bitmap 156 ken.bmp
+
+/* CD Playerボタン */
+bitmap 200 cd_start1.bmp
+bitmap 205 cd_start2.bmp
+bitmap 210 cd_stop1.bmp
+bitmap 215 cd_stop2.bmp
+bitmap 220 cd_next1.bmp
+bitmap 225 cd_next2.bmp
+bitmap 230 cd_prev1.bmp
+bitmap 235 cd_prev2.bmp
+
+/* CD Playerトラック */
+bitmap 240 n0.bmp
+bitmap 241 n1.bmp
+bitmap 242 n2.bmp
+bitmap 243 n3.bmp
+bitmap 244 n4.bmp
+bitmap 245 n5.bmp
+bitmap 246 n6.bmp
+bitmap 247 n7.bmp
+bitmap 248 n8.bmp
+bitmap 249 n9.bmp
+
+/* CD Player Time Counter */
+/*
+bitmap 250 t0.bmp
+bitmap 251 t1.bmp
+bitmap 252 t2.bmp
+bitmap 253 t3.bmp
+bitmap 254 t4.bmp
+bitmap 255 t5.bmp
+bitmap 256 t6.bmp
+bitmap 257 t7.bmp
+bitmap 258 t8.bmp
+bitmap 259 t9.bmp
+bitmap 260 tcolon.bmp
+*/
+
+/* CD Playerボタン2 */
+bitmap 290 cd_minimize.bmp 
+bitmap 291 cd_load1.bmp
+bitmap 292 cd_load2.bmp
+bitmap 293 cd_eject1.bmp
+bitmap 294 cd_eject2.bmp
+
+bitmap 310 volume1.bmp
+bitmap 320 volume2.bmp

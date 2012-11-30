@@ -1,0 +1,39 @@
+a {
+    color:mediumvioletred;
+    text-decoration:none;
+}
+
+a:hover {
+    color:teal;
+    text-decoration:underline;
+}
+
+body {
+    background-color:#FEFEFE;
+    background-image:url("http://www.prettypop.net/software/graphic/popcd_background.gif");
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    color:midnightblue;
+}
+
+.item {
+    margin:0px 0px 0px 0px;
+    padding:2px;
+    border-style:line;
+    border-width:2px;
+    border-color:orange;
+    background-color:orange;
+    color:snow;
+}
+
+.subitem {
+    margin:0px 0px 0px 0px;
+    padding:2px;
+    border-style:dotted;
+    border-width:2px;
+    border-color:royalblue;
+    color:royalblue;
+}
+
+
+

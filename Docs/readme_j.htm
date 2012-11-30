@@ -1,0 +1,523 @@
+<html>
+<head>
+<title>PopCD! readme (Japanese)</title>
+<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html" charset="Shift_Jis">
+
+<body>
+
+<center>
+    <font color="firebrick" size=7>
+    PopCD!
+    </font>
+    <br>
+    <font size=4 color="darkgoldenrod">
+    Pop Up CD-ROM Object Utility
+    </font>
+    <p>
+    <font size=2>
+    Copyright &copy; 1999-2004 Ken Kinoshita, Pretty Pop Software
+    <br>
+    e-mail :
+    <a href="mailto:prettypop@sakura.email.ne.jp">
+    prettypop@sakura.email.ne.jp
+    </a><br>
+    </font>
+</center>
+<p>
+
+<center>
+<a href="http://www.prettypop.net/">
+PrettyPop.net</a>
+<br>
+<a href="readme_e.htm">
+Readme - English edition
+</a>
+</center>
+<p>
+
+<div class="item">
+PopCD!
+</div>
+<ul>
+    PopCD!は自動的にCD-ROMを感知してCD-ROMのObjectをDesktopに作成するUtilityです。
+    自動的にCD-ROMのFolderをOpenする事も出来ます。
+    また、CD-ROM ObjectをシュレッダーにDrag & DropするとCD-ROMをEjectすることができます。
+    CD-ROM以外にもAudio CDや他のRemovable Mediaでも利用することができます。
+    <p>
+
+    PopCD!を動作をさせるには別途VROBJ.DLLとEMX Runtime Libraryが必要となります。
+    VROBJ.DLLおよびEMX Runtime LibraryはNIFTY-Serve FOS2ADVフォーラムのLIB 9やOS/2関連の雑誌に添付のCD-ROMから入手することが出来ます。
+    <p>
+
+    <ul>
+        <li>
+        <a href="http://www.prettypop.net/software/runtime/vrobj21d.zip">
+        Download VROBJ.DLL 2.1d (vrobj21d.zip)</a>
+
+        <li>
+        Download EMX Runtime Library (0.9c or higher)
+        <ol>
+            <li type=a>
+            <a href="ftp://ftp-os2.nmsu.edu/pub/os2/dev/emx/v0.9c/emxrt.zip">
+            Runtime Package (0.9c)</a>
+
+            <li type=a>
+            <a href="ftp://ftp-os2.nmsu.edu/pub/os2/dev/emx/v0.9d/emxrt.zip">
+            Runtime Package (0.9d)</a>
+        </ol>
+    </ul>
+</ul>
+<p>
+
+<div class="item">
+インストール
+</div>
+<ol>
+    <li type=1>
+    Pcd???r.zipを適当なDirectoryにCopyし、解凍します。
+    <p>
+
+    <li type=1>
+    install.cmdを実行するとPopCD!のObjectが始動フォルダに作成されます。
+</ol>
+<p>
+
+<div class="item">
+使用方法
+</div>
+<ul>
+    <li>
+    簡単な使い方
+    <p>
+    <ul>
+        <li>
+        PopCD!はCD-ROMを自動的に認識しますので、使い方は非常に簡単です。
+        <p>
+        <ol>
+            <li type=1>
+            `Enable' check boxをcheckし、PopCD!をenabledにします。
+
+            <li type=1>
+            Delay timeを設定します。
+        </ol>
+        <p>
+
+        <li>
+        他のRemovable Mediaでの利用方法
+        <p>
+        <ol>
+            <li type=1>
+            `Other Removable Media' check buttonをcheckします。
+
+            <li type=1>
+            Removable Driveをremovable drives entry fieldに入力します。
+            <br>
+            J:, K:, L:をremovable mediaで使用している場合は、`JKL'を入力します。
+        </ol>
+    </ul>
+    <p>
+
+    <li>
+    Icon Position
+    <p>
+    <ul>
+        <li>
+        Desktopの任意の領域にIconを表示する場合、`Auto Position' radio buttonを選択します。
+        領域は以下のParameterを使用して設定します。
+        <p>
+        <ol>
+            <li type=a>
+            Start Point X
+            <li type=a>
+            Start Point Y
+            <li type=a>
+            Rows
+            <li type=a>
+            Intervals X
+            <li type=a>
+            Intervals Y
+        </ol>
+        <p>
+
+        <li>
+        Minus(-)も使用することが出来ます。
+    </ul>
+    <p>
+
+    <li>
+    その他の設定
+    <p>
+    <ol>
+        <li type=a>
+        Volume label as object title
+        <p>
+        <ul>
+            <li type=disk>
+            Volume LabelをObjectのTitleとして使用する場合、`Use Volume Label' check boxをcheckします。
+        </ul>
+        <p>
+
+        <li type=a>
+        Open folder when mount object
+        <p>
+        <ul>
+            <li type=disk>
+            Mount時にFolderをOpenする場合、`Open Folder' check boxをcheckします。
+        </ul>
+        <p>
+
+        <li type=a>
+        Open folder view mode
+        <p>
+        <ul>
+            <li type=disk>
+            FolderのView(ICON/TREE/DETAILS)を設定することができます。
+            また、各Viewの設定も可能です。
+        </ul>
+        <p>
+
+        <li type=a>
+        CD-ROM Last Drive
+        <p>
+        <ul>
+            <li type=disk>
+            検索するCD-ROM Driveの範囲を変更することができます。
+        </ul>
+        <p>
+
+        <li type=a>
+        Ignore CD-ROM Drive
+        <p>
+        <ul>
+            <li type=disk>
+            検索しないCD-ROMを任意に指定することができます。
+            <br>
+            P:, Q:, R:を検索しない場合は、`PQR'を入力します。
+        </ul>
+        <p>
+
+        <li type=a>
+        Caption
+        <p>
+        <ul>
+            <li type=disk>
+            DefaultのDrive Nameの設定をします。
+
+            <li type=disk>
+            `%d' でDrive Letterを指定します。
+            例えば、日本語OS/2 Warpの場合は`ドライブ %d'と設定します(初期設定は`Drive %d'となっています)。
+            <br>
+        </ul>
+    </ol>
+    <p>
+
+    <li>
+    Audio CD
+    <p>
+    <ul>
+        <li>
+        Basic setup
+        <p>
+        <ol>
+            <li type=1>
+            CD PlayerのDevice ID(1-6)を設定します。
+            <li type=1>
+            `Audio CD' check boxをcheckします。
+        </ol>
+        <p>
+
+        <li>
+        PopCD! CD Player
+        <p>
+        <ul>
+            <li type=disc>
+            PopCD!はTiny CD playerを内蔵しています。
+            PopCD! CD PlayerはAudio CDがLoadされると自動的に起動されます。
+            また、Audio CDがEjectされるとCloseします。
+            <p>
+
+            <li type=disc>
+            Functions
+            <p>
+            <ol>
+                <li type=a>
+                Visible CD Player
+                <br>
+                PopCD! CD Playerをデスクトップに表示する場合は、`Visible CD Player' check boxをcheckします。
+                <p>
+
+                <li type=a>
+                Auto Play
+                <br>
+                Audio CD Load時、自動的に再生する場合は、`Auto Play' check boxをcheckします。
+                <p>
+
+                <li type=a>
+                Always on Top
+                <br>
+                PopCD! CD Playerを常時Desktopの一番上に表示させる場合は、`Always on Top' check boxをcheckします。
+                <p>
+
+                <li type=a>
+                Key Commands
+                <br>
+                PopCD! CD playerで下記のShort-Cut Keyを使用することができます。
+                <p>
+                <ul>
+                    <table>
+                        <tr>
+                            <td>`P' または Right key</td><td>:</td><td>再生</td>
+                        </tr><tr>
+                            <td>`S' または Left key</td><td>:</td><td>停止</td>
+                        </tr><tr>
+                            <td>`N' または Up key</td><td>:</td><td>次のTrackを再生</td>
+                        </tr><tr>
+                            <td>`R' または Down key</td><td>:</td><td>前のTrackを再生</td>
+                        </tr><tr>
+                            <td>`E'</td><td>:</td><td>Audio CDをEject</td>
+                        </tr><tr>
+                            <td>`T'</td><td>:</td><td>Title Barの表示/非表示</td>
+                        </tr><tr>
+                            <td>`V'</td><td>:</td><td>Volumeの表示/非表示</td>
+                        <script>
+                        /*
+                        </tr><tr>
+                            <td>0 - 9 (数値)</td><td>:</td><td>Song track (近日Support予定)</td>
+                        </tr>
+                        */
+                        </script>
+                    </table>
+                </ul>
+            </ol>
+        </ul>
+        <p>
+
+        <li>
+        External CD Player
+        <p>
+        <ul>
+            <li type=disc>
+            外部のCD Playerを利用することも可能です。
+        </ul>
+    </ul>
+    <p>
+
+    <li>
+    CD-ROMの取り出し方
+    <p>
+    <ul>
+        以下の方法でCD-ROMを取り出すことができます。
+        <p>
+
+        <ol>
+           <li type=a>
+           CD-ROM objectをシュレッダーにDrag & Dropする。
+           <li type=a>
+           CD-ROM objectを削除する。
+           <li type=a>
+           CD-ROM driveのEject Buttonを押す。
+        </ol>
+    </ul>
+</ul>
+<p>
+
+<div class="item">
+動作確認
+</div>
+<ul>
+    OS/2 Warp 4
+</ul>
+<p>
+
+<div class="item">
+転載・再配布の条件
+</div>
+<ul>
+    転載・再配布は基本的に自由ですが、事前に作者に許可を取ってください。
+    また、転載、再配布の際にはオリジナルの配布形態を改変しないでください。
+</ul>
+<p>
+
+
+<div class="item">
+使用上の注意
+</div>
+<ul>
+    作者はこのソフトの使用によって生じたいかなる損害にもその責任を負いません。
+    また一切保証は致しません。予めご了承願います。
+</ul>
+
+<div class="item">
+著作権
+</div>
+<ul>
+    このソフトウェアの著作権は作者にあります。
+</ul>
+<p>
+
+<div class="item">
+ご意見・ご感想・バグ・レポート
+</div>
+<ul>
+    ご意見・ご感想・バグレポートは
+    <a href="mailto:prettypop@sakura.email.ne.jp">
+    prettypop@sakura.email.ne.jp
+    </a>
+    までお願いします。
+</ul>
+<p>
+
+<div class="item">
+PrettyPop Homegape
+</div>
+<ul>
+    最新のFileと情報はすべて
+    <a href="http://www.prettypop.net/">
+    PrettyPop.net</a>
+    にあります。
+</ul>
+<p>
+
+<div class="item">
+History
+</div>
+<ul>
+    <b>Version 1.00</b> (06.Jan.1999)
+    <ol>
+        <li type=a>
+        This is first version.
+    </ol>
+    <p>
+
+    <b>Version 1.10</b> (16.Jan.1999)
+    <ol>
+        <li type=a>
+        Macintosh like eject CD-ROM function.
+        <li type=a>
+        Other minor parts are also modified.
+    </ol>
+    <p>
+
+    <b>Version 2.00</b> (11.Feb.1999)
+    <ol>
+        <li type=a>
+        Automaticaly search CD-ROM Media (FileSystem:CDFS)
+        <li type=a>
+        Support more than 2(two) CD-ROM Drives.
+        <li type=a>
+        Support Other (Removable) Media (Optical Disk, etc).
+        <li type=a>
+        Support Audio CD.
+        <li type=a>
+        Become to select default folder view mode and set some parameters.
+        <li type=a>
+        Add tiny Audio CD Player function.
+        <li type=a>
+        Support External CD Player.
+        <li type=a>
+        Become to Shareware.
+    </ol>
+    <p>
+
+    <b>Version 2.01</b> (11.Feb.1999)
+    <ol>
+        <li type=a>
+        不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 2.05</b> (18.Mar.1999)
+    <ol>
+        <li type=a>
+        Ignore CD-ROM Drives Functionの追加。
+        <li type=a>
+        CD-ROMのLast Drive Parameterの追加。
+        <li type=a>
+        Shutdown時やExit Button以外で終了した場合に生じる不具合の修正。
+        <li type=a>
+        その他、仕様変更や不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 2.10</b> (01.Apr.1999)
+    <ol>
+        <li type=a>
+        Auto Positioning機能の追加。
+        <li type=a>
+        CD Audio Icon名の変更。
+        <li type=a>
+        その他、仕様変更や不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 2.15</b> (21.Apr.1999)
+    <ol>
+        <li type=a>
+        Tune up.
+        <li type=a>
+        `Internal CD Player Always on Top'機能の追加。
+        <li type=a>
+        `Enable/Disable Folder View Mode'機能の追加。
+        <li type=a>
+        その他、仕様変更や不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 2.15a</b> (14.Jun.1999)
+    <ol>
+        <li type=a>
+        扱えるAudio CDのDevice IDを#6まで拡張。
+    </ol>
+    <p>
+
+    <b>Version 2.16</b> (13.Aug.1999)
+    <ol>
+        <li type=a>
+        CD等のEject時、Object名がDefault名に変更される様に仕様変更。
+        Default名は`Caption'で設定します。
+    </ol>
+    <p>
+
+    <b>Version 2.17</b> (21.Aug.1999)
+    <ol>
+        <li type=a>
+        CD Audio Device IDが正しく設定できない不具合の修正。
+        <li type=a>
+        Tiny CD PlayerでContext Menuを追加。
+        <li type=a>
+        その他、不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 2.18</b> (26.Sep.1999)
+    <ol>
+        <li type=a>
+        Tiny CD Playerの不具合修正。
+        <li type=a>
+        その他、仕様変更や不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 2.19</b> (29.Nov.1999)
+    <ol>
+        <li type=a>
+        Tiny CD PlayerにTrack Listを追加。
+        <li type=a>
+        Tiny CD PlayerにShort-Cut Keyを追加。
+    </ol>
+
+    <p>
+
+    <b>Version 2.20</b> (12.Sep.2004)
+    <ol>
+        <li type=a>
+        Freeware化。
+    </ol>
+</ul>
+
+<font color="snow">
+</body>
+</html>
+

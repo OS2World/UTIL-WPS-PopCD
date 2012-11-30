@@ -1,0 +1,30 @@
+                          PopCD! Upload Information for Hobbes.nmsu.edu
+                          =============================================
+
+        Archive Filename: Pcd220.zip
+       Short Description: PopCD!, Pop Up CD-ROM Object Utility
+        Long Description:
+        Long Description: What is PopCD!? PopCD! is `Pop Up CD-ROM/Removable media/Audio CD Object' Utility.
+                          When you insert CD-ROM/Removable media/Audio CD, PopCD! creates its object on desktop and open/play.
+                          And PopCD! ejects CD-ROM/Removable Media/Audio CD when you drag and drop object into shredder.
+
+      Proposed directory
+           for placement: /pub/os2/util/wps
+
+               Your name: Ken Kinoshita
+           Email address: prettypop@sakura.email.ne.jp
+    Program contact name: (same)
+   Program contact email: (same)
+             Program URL: http://www.prettypop.net/
+
+      Would you like the
+   contact email address
+    included in listings? yes
+
+Operating System/Version: Warp4
+ Additional requirements: Watcom VX-REXX Runtime (VROBJ.DLL)
+                          EMX Runtime Library (0.9c or higher)
+
+                Replaces: pcd219r.zip
+
+
